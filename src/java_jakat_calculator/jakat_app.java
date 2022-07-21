@@ -390,6 +390,8 @@ public class jakat_app extends javax.swing.JFrame {
             jLabel14.setText(String.valueOf(total_asset + " BDT"));
             jLabel15.setText(String.valueOf(zakat + " BDT"));
         }else{
+            jLabel14.setText(String.valueOf(total_asset + " BDT"));
+            jLabel15.setText(String.valueOf("0"));
             JOptionPane.showMessageDialog(this, "You don't have enough Nisab to give Zakat!!");
         }
         
